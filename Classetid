@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="keywords" content="Entrainement, Développement, Web">
+		<title>learningcode2</title>
+		<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+    <style>
+          a {
+	text-decoration:none;
+}
+
+.bus {
+	clear:right;
+	float:right;
+}
+
+.busalpha {
+	width:222px;
+	min-width: 100px;
+	border: 1px solid #ccc;
+	background-color: #F9F9F9;
+	text-align:center;
+	padding:3px;
+}
+
+.bluetxt {
+	color:#2E2EFE;
+}
+
+.greentxt {
+	color:#9FF781;
+}
+
+.purpletxt {
+	color:#D358F7;
+}
+
+.boldtxt {
+	font-weight:bold;
+}
+
+#busalphatxt {
+	text-align:left;
+	
+}
+
+#body{
+	font: 15px arial, sans-serif;
+}
+
+#[id='s'] {
+	vertical-align:super;
+}
+    </style>
+	</head>
+	<body id="body">
+		<header>
+		</header>
+		
+		<title></title>
+		<section>
+			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+			<hr>
+			<div class="bus">
+				<div class="busalpha">
+					<div id="busalphatxt">
+						<a href="https://fr.wikipedia.org/wiki/%C3%89vreux">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Heuliez_GX_187_Evreux.JPG/220px-Heuliez_GX_187_Evreux.JPG" alt="bus">
+						</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, in, non, rem, quasi velit vel officiis minus <span class="bluetxt">temporibus</span> ut ratione culpa aut. Esse, blanditiis, aut.
+					</div>					
+				</div>
+			</div>
+			<div>
+				<span class="greentxt">Lorem ipsum</span> dolor sit amet, consectetur <span class="boldtxt">Grand Evreux</span>. Tempore, ut veritatis laboriosam <span class="bluetxt"> sint ullam animi</span> ad quas vel<span class="bluetxt"> necessitatibus pariatur</span> qui cupiditate vero voluptatum architecto itaque cum dignissimos nam unde<span class="bluetxt"> quod</span> illo in placeat voluptas dicta ipsa<span class="bluetxt"> reprehenderit</span> temporibus voluptate ea? Pariatur et recusandae fugit quam ratione eaque <span class="purpletxt">sit porro</span>.
+			</div>
+			<div>
+				La <a href="https://fr.wikipedia.org/wiki/Gare_d%27%C3%89vreux-Normandie">gare d'Évreux-Normandie</a> fait partie du réseau de la <a href="https://fr.wikipedia.org/wiki/SNCF">SNCF</a><a href="https://fr.wikipedia.org/wiki/%C3%89vreux#cite_note-5"><sup>5</sup></a> dont les principales lignes sont Évreux-Bueil-Paris et <a href="https://fr.wikipedia.org/wiki/Ligne_de_Mantes-la-Jolie_%C3%A0_Cherbourg">Caen-Bernay-Évreux-Paris</a>.
+			</div>
+		</section>
+		<footer>
+		
+		</footer>
+		<!--Script de la page-->
+		
+	</body>
+</html>
