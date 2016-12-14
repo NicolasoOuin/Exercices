@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="keywords" content="Formulaire">
+	<title>Formulaire HTML5</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<h1>Formulaire HTML5</h1>
+	<fieldset id="main">
+		<legend>
+			Vos données personnelles			
+		</legend>
+		<form action="destination.html">
+		
+			<div>				
+				<label for="nom">Nom</label>
+				<input class="inputalign" type="text" id="nom" name="nom"  placeholder="Votre Nom" onFocus="javascript:this.placeholder=''">
+			</div>
+			<div>
+				<label for="prénom" >Prénom</label>
+				<input class="inputalign" type="text" id="prénom" name="prénom" placeholder="Votre Prénom" onFocus="javascript:this.placeholder=''">
+			</div>
+			<div>
+				<label for="date de naissance">Date de naissance</label>
+				<input class="inputalign" name="date de naissance" id="date de naissance" type="date">
+			</div>
+			<div>
+				<fieldset>
+					<legend>
+						LIEU DE NAISSANCE
+					</legend>
+					<div>
+						<label for="evreux">Evreux</label>
+						<input name="lieu de naissance" id="evreux" type="radio">
+						<label for="autres">Autres</label>
+						<input name="lieu de naissance" id="autres" type="radio">
+					</div>
+				</fieldset>
+				<div>
+					<label for="adresse postale">Adresse postale</label>			
+					<textarea class="inputalign" name="adresse postale" id="adresse postale" cols="30" rows="2" onFocus="javascript:this.placeholder=''" placeholder="Votre adresse"></textarea> 
+				</div>
+				<div>
+					<label for="code postal">Code postal</label>
+					<input class="inputalign" type="text" name="code postal" pattern="\d*" maxlength="5" id="code postal" placeholder="27000" onFocus="javascript:this.placeholder=''">
+				</div>
+				<div>
+					<label for="adresse email">Adresse email</label>
+					<input class="inputalign" type="email" name="adresse email" id="adresse email" placeholder="Votre adresse mail" onFocus="javascript:this.placeholder=''">
+				</div>
+				<div>
+					<label for="myurl">Page personnelle</label>
+					<input class="inputalign" type="url" name="page personnelle" id="myurl" placeholder="Votre page web" onFocus="javascript:this.placeholder=''">
+				</div>
+				<div>
+					<label for="tel">Téléphone</label>
+					<input class="inputalign" type="text" name="telephone" id="tel" pattern="[0]{1}[6-7]{1}[0-9]{8}" maxlength="10" title="Numéro à 10 chiffres sans espace et commençant par 06 ou 07" placeholder="06********" onFocus="javascript:this.placeholder=''" required>
+				</div>
+				<div>				
+					<label for="sem">Semestre</label>
+					<select class="inputalignsemestre" name="semestre" id="sem">
+						<option value="s1">S1</option>
+						<option value="s2" selected="selected">S2</option>
+						<option value="s3">S3</option>
+						<option value="s4">S4</option>
+					</select>
+				</div>
+				<div>
+					<label for="lvlhtml">Niveau en HTML</label> 
+					<input class="inputalign" name="niveau en html" type="range" min="0" max="10" step="1" id="lvlhtml">
+				</div>
+				<fieldset class="connaissances">
+					<legend>
+						CONNAISSANCES
+					</legend>
+					<label class="connaissances" for="html" >HTML</label>
+					<input type="checkbox" name="html" id="html" checked="checked">
+					<label class="connaissances" for="css">CSS</label>
+					<input type="checkbox" name="css" id="css">
+					<label class="connaissances" for="js">JAVASCRIPT</label>
+					<input type="checkbox" name="javascript" id="js">
+					<label class="connaissances" for="php">PHP</label>
+					<input type="checkbox" name="php" id="css">				
+				</fieldset>
+				<input id="submit" name="valider" type="submit">
+				<input type="reset" value="Réinitialiser">
+		</form>
+	
+	</fieldset>
+	
+	
+	
+	<footer id="footer">
+		Réalisation d'un formulaire.
+	</footer>
+</body>
+</html>
